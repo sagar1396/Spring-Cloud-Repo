@@ -1,0 +1,5 @@
+com\api\vmsnew\controllers\VmsController.class
+com\api\vmsnew\VmsApplication.class
+com\api\vmsnew\daos\ApiDao.class
+com\api\vmsnew\beans\RequirementDetails.class
+com\api\vmsnew\services\ApiService.class
