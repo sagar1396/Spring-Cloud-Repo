@@ -265,7 +265,7 @@ public class ApiService {
 		String returnJson = "";
 		requirementDetails.setTaskName(taskName);
 		try {
-			returnJson = restTemplate.postForObject("http://vms-new/prepareJsonBForDao", requirementDetails,
+			returnJson = restTemplate.postForObject("http://vmsnew/prepareJsonBForDao", requirementDetails,
 					String.class);
 			logger.info("response from vms-new - " + returnJson);
 		} catch (Exception e) {
